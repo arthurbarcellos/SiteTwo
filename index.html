@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <title>Colégio São Plácido</title>
+
+  </head>
+  <body>
+    <div id="overlay" style="display: none;"></div>
+    <header>
+        <!-- Top navigation -->
+        <div class="topnav" id="topnavbar">
+            <!-- Left-aligned links (default) -->
+            <div class="menu" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+                <span>MENU</span>
+            </div>
+            <!-- Centered link -->
+            <div class="topnav-centered">
+                <a href="#home" ><img id="logo" src="./images/logo-icon.png" alt="logo-colegio" style="height:200px;"></a>
+            </div>
+            <!-- Right-aligned links -->
+            <div class="topnav-right">
+                <a href="javascript:void(0)" class="searchbtn" onclick="openSearchBar()">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--Sidepanel navigation-->
+        <div class="sidepanel" id="sidepanelbar">
+            <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+            <div class="ativo">
+                <a href="#home">
+                    <img src="./images/logo-icon.png" alt="logo" style="height:100px;float: left;">
+                    <span>Colégio<br>São Plácido</span>
+                </a>
+            </div>
+            <a href="#home" class="home">Home</a>
+            <a href="#colegio">O Colégio</a>
+            <a href="#noticias">Notícias</a>
+            <a href="#contato">Contato</a>
+            <a href="#info">Informações</a>
+            <div class="sociais">
+                <a href="#facebook"><i class="fa fa-facebook-f"></i></a>
+                <a href="#instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+            <p>Compartilhe!</p>
+            <div class="copyright">Todos os direitos reservados. &copy;</div>
+        </div>
+    </header>
+
+    <!--Search bar-->
+    <div>
+        <form>
+            <input id="searchbar" type="text" name="search" placeholder="Pesquisar...">
+        </form> 
+    </div>
+
+    <!-- Banner carousel -->
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid d-block" src="images/banner1.png" alt="Primeiro Slide" width="100%">
+                <a class="carousel-caption" href="#slide1">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus libero. Vestibulum venenatis, erat et iaculis elementum, est tortor lobortis libero, id ornare tortor nibh vitae nunc.</p>
+                </a>
+                
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid d-block" src="images/banner2.png" alt="Segundo Slide" width="100%">
+                <a class="carousel-caption" href="#slide1">
+                    <h2>Donec vel mollis diam</h2>
+                    <p>Donec vel mollis diam. Sed ultrices finibus laoreet. Etiam dolor neque, convallis vitae metus vel, finibus fringilla felis. Proin sodales, nibh quis consequat volutpat, magna diam commodo est, id ullamcorper felis eros quis risus.</p>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid d-block" src="images/banner3.png" alt="Terceiro Slide" width="100%">
+                <a class="carousel-caption" href="#slide1">
+                    <h2>Vestibulum porttitor ultrices tincidunt</h2>
+                    <p>Vestibulum porttitor ultrices tincidunt. Quisque dapibus condimentum mattis. Maecenas porttitor nunc quis blandit elementum. Nullam urna ligula, suscipit ut iaculis sit amet, dictum non odio.</p>
+                </a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+
+        </div>
+
+        <div style="padding-bottom: 1000px;"></div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
