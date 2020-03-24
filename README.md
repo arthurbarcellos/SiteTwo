@@ -1,2 +1,0 @@
-# SiteTwo
-Site Escolar
